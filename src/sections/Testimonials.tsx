@@ -1,7 +1,10 @@
+"use client";
+
 import avatar1 from "@/assets/avatar-1.png";
 import avatar2 from "@/assets/avatar-2.png";
 import avatar3 from "@/assets/avatar-3.png";
 import avatar4 from "@/assets/avatar-4.png";
+import {motion} from "framer-motion";
 
 import Image from "next/image";
 
@@ -46,11 +49,24 @@ export const Testimonials = () => {
 
       {/* wrapper for cards align them and give effects */}
 
-      <div className="overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
-        <div className="flex gap-5">
+      <div className="flex overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
+        <motion.div
+        initial={{
+          translateX: '-50%'
+        }}
+
+        animate={{
+          translateX: 0
+        }}
+        transition={{
+          duration: 40,
+          repeat: Infinity,
+          ease:'linear'
+        }}
+        className="flex gap-5 flex-none -translate-x-0">
 
           {/* each card */}
-          {testimonials.map(testimonials => (
+          {[...testimonials, ...testimonials].map(testimonials => (
 
             // gives styles card border, effect
             <div key={testimonials.name} className="border border-white/15 p-6 md:p-10 rounded-xl bg-[linear-gradient(to_bottom_left,rgb(140,69,255,.3),black)] max-w-xs  md:max-w-md flex-none">
@@ -78,7 +94,7 @@ export const Testimonials = () => {
             // card end
           ))}
 
-        </div>
+        </motion.div>
       </div>
       {/* wrapper for cards end */}
     </div>
