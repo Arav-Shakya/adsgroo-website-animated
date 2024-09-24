@@ -10,7 +10,7 @@ import {motion} from "framer-motion";
 
 // import Image from "next/image";
 export const LogoTicker = () => {
-  return <section className="py-20 md:py-24">
+  return <section id="clients" className="py-20 md:py-24">
     <div className="container">
     
         <div className="flex items-center gap-5">

@@ -12,10 +12,10 @@ export const Footer = () => {
         </div>
         <div className=" py-8">
           <nav className="flex flex-col md:flex-row gap-4 text-sm">
+              <a href="#" className="text-white/70 hover:text-white transition">Clients</a>
               <a href="#" className="text-white/70 hover:text-white transition">Features</a>
-              <a href="#" className="text-white/70 hover:text-white transition">Developers</a>
-              <a href="#" className="text-white/70 hover:text-white transition">Pricing</a>
-              <a href="#" className="text-white/70 hover:text-white transition">Chnagelog</a>
+              <a href="#" className="text-white/70 hover:text-white transition">Testimonials</a>
+              <a href="#" className="text-white/70 hover:text-white transition">Consultaion</a>
           </nav>
         </div>
         </div>

@@ -16,7 +16,7 @@ export const Hero = () => {
   const backgroundPositionY = useTransform(scrollYProgress, [0, 1], [-300,300]);
 
   // section and stars
-  return <motion.section ref={sectionRef} className="h-[492px] md:h-[800px] flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]" 
+  return <motion.section id="hero" ref={sectionRef} className="h-[492px] md:h-[800px] flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]" 
   animate={{
     backgroundPositionX: starsBg.width,
   }}

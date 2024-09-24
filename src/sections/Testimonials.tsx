@@ -36,7 +36,7 @@ const testimonials = [
 ];
 
 export const Testimonials = () => {
-  return <section className="py-20 md:py-24">
+  return <section id="testimonials" className="py-20 md:py-24">
 
     {/* container that wraps the content for whole section */}
     <div className="container">

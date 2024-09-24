@@ -151,7 +151,7 @@ export const Features = () => {
   const [activeTab, setActiveTab] = useState<number | null>(null); // Track the active tab
 
   return (
-    <section className="py-20 md:py-24">
+    <section id="features" className="py-20 md:py-24">
       <div className="container">
         <h2 className="text-5xl md:text-6xl font-medium text-center tracking-tighter">
           {/* Elevate your SEO efforts */}
