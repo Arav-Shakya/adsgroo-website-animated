@@ -101,13 +101,13 @@ export const Hero = () => {
     <div className="container relative mt-16">
 
       {/* Content start */}
-      <h1 className="text-6xl md:text-9xl md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">WE MAKE TECH</h1>
+      <h1 className="text-6xl md:text-9xl md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">ALGORITHMISTS</h1>
       <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
       {/* Elevate your sites visibility effortlessly with AI, where smart technology meets user-friendly SEO tools. */}
-      We`re AdsGroo, a software company we help business make softwares that scale with their business.
+      AR Kawaii Pets provides astronauts with virtual companions to combat loneliness.
       </p>
       <div className="flex justify-center mt-5">
-      <Button>Get Started</Button>
+      <Button>Download</Button>
       {/* Content end */}
 
       </div>

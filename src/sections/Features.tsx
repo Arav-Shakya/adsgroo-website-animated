@@ -1,6 +1,6 @@
 "use client";
 import { DotLottieCommonPlayer, DotLottiePlayer } from "@dotlottie/react-player";
-import productImage from "@/assets/product-image.png";
+import productImage from "@/assets/Kawaii.png";
 import { ComponentPropsWithoutRef, useEffect, useRef, useState } from "react";
 import { animate, motion, useMotionTemplate, useMotionValue } from "framer-motion";
 
@@ -17,7 +17,7 @@ type Tab = {
 const tabs: Tab[] = [
   {
     icon: "/assets/lottie/vroom.lottie",
-    title: "Optimised for tomorrow",
+    title: "High-Performance",
     isNew: false,
     backgroundPositionX: 0,
     backgroundPositionY: 0,
@@ -25,7 +25,7 @@ const tabs: Tab[] = [
   },
   {
     icon: "/assets/lottie/click.lottie",
-    title: "Design that speaks",
+    title: "Multiple Interaction",
     isNew: false,
     backgroundPositionX: 98,
     backgroundPositionY: 100,
@@ -33,7 +33,7 @@ const tabs: Tab[] = [
   },
   {
     icon: "/assets/lottie/stars.lottie",
-    title: "Bring AI to your projects",
+    title: "User-Friendly",
     isNew: true,
     backgroundPositionX: 100,
     backgroundPositionY: 27,
@@ -155,10 +155,12 @@ export const Features = () => {
       <div className="container">
         <h2 className="text-5xl md:text-6xl font-medium text-center tracking-tighter">
           {/* Elevate your SEO efforts */}
-          We help you build next big thing
+          AR Game For Astronauts
         </h2>
         <p className="text-white/70 text-lg max-w-2xl mx-auto tracking-tight text-center mt-5">
-        Whatever your tech stack, our team can build the software you need ensuring the quality you need.
+        Our AR game can be played by Astronaut to counter homesickness,loneliness and be mentaly more stable also anyone on earth can play it too .
+
+        sjd
         </p>
 
         <div className="mt-10 flex flex-col lg:flex-row gap-3">

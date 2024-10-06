@@ -83,13 +83,13 @@ export const CallToAction = () => {
 
           <div className="relative">
             <h2 className="text-5xl md:text-6xl max-w-sm mx-auto tracking-tighter text-center font-medium">
-              Get Free Guidance
+              Get The Secrect Sauce
             </h2>
             <p className="text-center text-lg md:text-xl max-w-md mx-auto text-white/70 px-4 mt-5 tracking-tight">
-              Book a free consultation call for guidance and a quote. We would be happy to assist you!
+              Our Game was developed on Unity and  you cand download below from Mega apk-59mb project-soze-3.9gb. 
             </p>
             <div className="flex justify-center mt-8">
-              <Button>Contact Us</Button>
+              <Button>Download The Code</Button>
             </div>
           </div>
         </motion.div>

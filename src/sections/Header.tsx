@@ -28,24 +28,24 @@ export const Header = () => {
           {/* Navigation for larger screens */}
           <div className="hidden md:block">
             <nav className="flex gap-8 text-sm">
-              <a href="#clients" className="text-white/70 hover:text-white transition">
-                Clients
-              </a>
+              {/* <a href="#clients" className="text-white/70 hover:text-white transition">
+                Pets
+              </a> */}
               <a href="#features" className="text-white/70 hover:text-white transition">
-                Features
+                Pets
               </a>
               <a href="#testimonials" className="text-white/70 hover:text-white transition">
-                Testimonials
+                Members 
               </a>
               <a href="#consultation" className="text-white/70 hover:text-white transition">
-                Consultation
+                Code
               </a>
             </nav>
           </div>
 
           {/* Button and Hamburger Menu Icon */}
           <div className="flex gap-4 items-center">
-            <Button>Get Started</Button>
+            <Button>Download</Button>
             {/* Toggle Menu Icon */}
             <div className="md:hidden">
               <button onClick={toggleMenu}>
@@ -59,17 +59,17 @@ export const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 p-4  rounded-lg">
             <nav className="flex flex-col gap-4 text-center">
-              <a href="#clients" className="text-white/70 hover:text-white transition" onClick={toggleMenu}>
+              {/* <a href="#clients" className="text-white/70 hover:text-white transition" onClick={toggleMenu}>
                 Clients
-              </a>
+              </a> */}
               <a href="#features" className="text-white/70 hover:text-white transition" onClick={toggleMenu}>
-                Features
+               Pets
               </a>
               <a href="#testimonials" className="text-white/70 hover:text-white transition" onClick={toggleMenu}>
-                Testimonials
+              Members
               </a>
               <a href="#consultation" className="text-white/70 hover:text-white transition" onClick={toggleMenu}>
-                Consultation
+              Code
               </a>
             </nav>
           </div>

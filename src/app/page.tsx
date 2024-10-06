@@ -7,5 +7,5 @@ import {CallToAction} from "@/sections/CallToAction";
 import {Footer} from "@/sections/Footer";
 
 export default function Home() {
-  return <><Header /> <Hero /> <LogoTicker /> <Features /> <Testimonials /> <CallToAction /> <Footer /></> ;
+  return <><Header /> <Hero />  <Features /> <Testimonials /> <CallToAction /> <Footer /></> ;
 }

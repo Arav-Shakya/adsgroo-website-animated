@@ -1,37 +1,51 @@
 "use client";
 
-import avatar1 from "@/assets/avatar-1.png";
+import avatar1 from "@/assets/avatar-1.jpeg";
 import avatar2 from "@/assets/avatar-2.png";
 import avatar3 from "@/assets/avatar-3.png";
-import avatar4 from "@/assets/avatar-4.png";
+import avatar4 from "@/assets/avatar-4.jpeg";
+import avatar5 from "@/assets/avatar-5.jpeg";
+import avatar6 from "@/assets/avatar-6.png";
 import {motion} from "framer-motion";
 
 import Image from "next/image";
 
 const testimonials = [
   {
-    text: "“This product has completely transformed how I manage my projects and deadlines”",
-    name: "Sophia Perez",
-    title: "Director @ Quantum",
+    text: "“I am the Lead Game Develop who made AR Kawaii Pets alogn with help of fellow team members”",
+    name: "Arav Shakya",
+    title: "Hacker @ Algorithmists",
     avatarImg: avatar1,
   },
   {
-    text: "“These AI tools have completely revolutionized our SEO entire strategy overnight”",
-    name: "Jamie Lee",
-    title: "Founder @ Pulse",
+    text: "“I manged team to effciently mange also I am a video Editor”",
+    name: "Hanu Shashwat",
+    title: "Collaborator @ Algorithmists",
     avatarImg: avatar2,
   },
   {
-    text: "“The user interface is so intuitive and easy to use, it has saved us countless hours”",
-    name: "Alisa Hester",
-    title: "Product @ Innovate",
+    text: "“I am Garphic Designer and I have expertise in Figma”",
+    name: "Aditya Raj thakur",
+    title: "Designer @ Algorithmists",
     avatarImg: avatar3,
   },
   {
-    text: "“Our team's productivity has increased significantly since we started using this tool”",
-    name: "Alec Whitten",
-    title: "CTO @ Tech Solutions",
+    text: "“I am the Web developer but I also learned unity in 3 days for this hackathon”",
+    name: "Om Tiwari Pandey",
+    title: "Web Developer @ Algorithmists",
     avatarImg: avatar4,
+  },
+  {
+    text: "“I made designed agme assets and UI and worked on game assets”",
+    name: "Sanskar",
+    title: "Designer @ Algorithmists",
+    avatarImg: avatar5,
+  },
+  {
+    text: "“I am the 3D guy and made required 3D assets”",
+    name: "Farhan",
+    title: "3D Modeler @ Algorithmists",
+    avatarImg: avatar6,
   },
 ];
 
@@ -42,10 +56,10 @@ export const Testimonials = () => {
     <div className="container">
 
       {/* heading and para */}
-      <h1 className="text-5xl md:text-6xl font-medium text-center tracking-tighter">Beyond Expectations.</h1>
+      <h1 className="text-5xl md:text-6xl font-medium text-center tracking-tighter">Meet The Team.</h1>
       <p className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto  text-center mt-5 tracking-tight md:max-w-md md:mx-auto ">
       {/* Our revolutionary Al SEO tools have transformed our client`s strategies. */}
-      Hear the success stories of our clients as we continuously help them build and manage their projects. You could be next!      </p>
+      Meet our team behind AR Kawaii Petz, who developed the game in just 48 hours, with roles ranging from design and coding to AR integration and gameplay development     </p>
 
       {/* wrapper for cards align them and give effects */}
 
