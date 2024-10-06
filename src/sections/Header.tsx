@@ -45,7 +45,9 @@ export const Header = () => {
 
           {/* Button and Hamburger Menu Icon */}
           <div className="flex gap-4 items-center">
-            <Button>Download</Button>
+              <a href="https://mega.nz/file/acwVRI6S#mjDvAjTrXl6cnnGKeCoCBT7X_8Y9LrmNU7ox_1YC8YI" target="_blank" rel="noopener noreferrer">
+                <Button>Download The Apk</Button>
+              </a>
             {/* Toggle Menu Icon */}
             <div className="md:hidden">
               <button onClick={toggleMenu}>

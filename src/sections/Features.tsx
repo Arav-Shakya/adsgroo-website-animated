@@ -159,8 +159,8 @@ export const Features = () => {
         </h2>
         <p className="text-white/70 text-lg max-w-2xl mx-auto tracking-tight text-center mt-5">
         Our AR game can be played by Astronaut to counter homesickness,loneliness and be mentaly more stable also anyone on earth can play it too .
-
-        sjd
+        <br />
+        People can grow their slime pets and it has multiplayer games so that you your pets and other astrnauts and their pets can play together we have include a AR duel but multiple things can be added and you can play with slime in the same you you do with your reaal pets
         </p>
 
         <div className="mt-10 flex flex-col lg:flex-row gap-3">

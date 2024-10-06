@@ -86,7 +86,7 @@ export const CallToAction = () => {
               Get The Secrect Sauce
             </h2>
             <p className="text-center text-lg md:text-xl max-w-md mx-auto text-white/70 px-4 mt-5 tracking-tight">
-              Our Game was developed on Unity and  you cand download below from Mega apk-59mb project-soze-3.9gb. 
+              Our Game was developed on Unity and  you cand download below from Mega apk-59mb project-size-3.9gb. 
             </p>
             <div className="flex justify-center mt-8">
               <a href="https://mega.nz/file/CIhWWTga#wmlIQNMc_YMAIjALThtO3-SRihi_WI6MURsqs_FW8So" target="_blank" rel="noopener noreferrer">

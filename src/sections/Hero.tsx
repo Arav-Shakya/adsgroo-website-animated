@@ -107,7 +107,9 @@ export const Hero = () => {
       AR Kawaii Pets provides astronauts with virtual companions to combat loneliness.
       </p>
       <div className="flex justify-center mt-5">
-      <Button>Download</Button>
+      <a href="https://mega.nz/file/acwVRI6S#mjDvAjTrXl6cnnGKeCoCBT7X_8Y9LrmNU7ox_1YC8YI" target="_blank" rel="noopener noreferrer">
+                <Button>Download The Apk</Button>
+              </a>
       {/* Content end */}
 
       </div>
