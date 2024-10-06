@@ -89,7 +89,9 @@ export const CallToAction = () => {
               Our Game was developed on Unity and  you cand download below from Mega apk-59mb project-soze-3.9gb. 
             </p>
             <div className="flex justify-center mt-8">
-              <Button>Download The Code</Button>
+              <a href="https://mega.nz/file/CIhWWTga#wmlIQNMc_YMAIjALThtO3-SRihi_WI6MURsqs_FW8So" target="_blank" rel="noopener noreferrer">
+                <Button>Download The Code</Button>
+              </a>
             </div>
           </div>
         </motion.div>
